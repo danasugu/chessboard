@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-
-    <form method="post">
+    
+    <form action="" method="post">
         <select name="size">
             <?php
                for ($i = 2; $i <= 10; $i++){
-                  echo "<option value='$i'>$i</option>";
-               }
-               ?>
+                   echo "<option value='$i'>$i</option>";
+                }
+                ?>
         </select>
     </form>
     
     <button name="submit" type="submit">Submit</button>
  
+    <table>
         <?php 
         if(isset($_POST['submit'])){
             $size = $_POST['size'];
         } else{
-            $size = 8;
+            $size = 3;
         }
         for($rows = 1; $rows <= $size; $rows++)
             {
@@ -43,7 +43,6 @@
                 echo "</tr>";
             }
         ?>
-
     </table>
 </body>
 </html>
