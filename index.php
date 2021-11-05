@@ -15,11 +15,11 @@
                for ($i = 2; $i <= 10; $i++){
                    echo "<option value='$i'>$i</option>";
                 }
-                ?>
+            ?>
         </select>
+        <button name="submit" type="submit">Submit</button>
     </form>
     
-    <button name="submit" type="submit">Submit</button>
  
     <table>
         <?php 
