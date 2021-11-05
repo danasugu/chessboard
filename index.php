@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <table>
+        <?php 
+        for($rows = 1; $rows <= 8; $rows++)
+            {
+                echo "<tr>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                    echo "<td></td>";
+                echo "</tr>";
+            }
+        ?>
+    </table>
 </body>
 </html>
