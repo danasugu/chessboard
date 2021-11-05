@@ -17,8 +17,14 @@
                 }
             ?>
         </select>
+        <select name="color">
+            <option value='green'>Green</option> 
+            <option value='black'>Black</option> 
+            <option value='red'>Red</option> 
+        </select>
         <button name="submit" type="submit">Submit</button>
     </form>
+
     
  
     <table>
