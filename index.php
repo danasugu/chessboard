@@ -13,14 +13,10 @@
         for($rows = 1; $rows <= 8; $rows++)
             {
                 echo "<tr>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
-                    echo "<td></td>";
+                   for($columns = 1; $columns <= 8; $columns++)
+                   {
+                       echo "<td></td>";
+                   }
                 echo "</tr>";
             }
         ?>
