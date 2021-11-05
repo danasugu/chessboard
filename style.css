@@ -7,3 +7,6 @@ td {
 table {
     border-collapse: collapse;
 }
+.black {
+    background-color: #333;
+}

@@ -15,7 +15,12 @@
                 echo "<tr>";
                    for($columns = 1; $columns <= 8; $columns++)
                    {
-                       echo "<td></td>";
+                       $total = $rows + $columns;
+                       if($total % 2 == 0) {
+                        echo "<td></td>";
+                       } else {
+                        echo "<td class='black'></td>";
+                       }
                    }
                 echo "</tr>";
             }
